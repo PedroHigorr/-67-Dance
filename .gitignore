@@ -1,0 +1,18 @@
+# Ignorar arquivos gerados pelo NetBeans na sua maquina
+build/
+nbbuild/
+dist/
+nbdist/
+nbproject/private/
+
+# Ignorar o banco de dados local
+*.db
+*.sqlite
+
+# Ignorar os videos (cada um baixa os seus para testar)
+storage/videos/
+*.mp4
+
+# Ignorar as bibliotecas JAR pesadas (o outro dev tem que configurar as dele)
+LIbraries/
+*.jar
