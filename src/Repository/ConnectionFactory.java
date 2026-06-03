@@ -31,10 +31,10 @@ public class ConnectionFactory {
              Statement stmt = conn.createStatement()) {
 
             stmt.execute(sqlPassos);
-            System.out.println("Vitoria: Banco de dados inicializado com sucesso!");
+            System.out.println("Banco de dados inicializado com sucesso!");
 
         } catch (SQLException e) {
-            System.err.println("Desastre ao inicializar o banco de dados: " + e.getMessage());
+            System.err.println("Erro ao inicializar o banco de dados: " + e.getMessage());
         }
     }
 }
