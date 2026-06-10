@@ -14,5 +14,5 @@ storage/videos/
 *.mp4
 
 # Ignorar as bibliotecas JAR pesadas (o outro dev tem que configurar as dele)
-LIbraries/
+Libraries/
 *.jar
